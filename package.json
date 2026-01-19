@@ -1,0 +1,29 @@
+{
+  "name": "playwrightuiapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npx playwright install",
+    "ui-test": "cucumber-js --config=config/cucumber-ui.js",
+    "api-test": "cucumber-js --config=config/cucumber-api.js",
+    "test": "npm run ui-test && npm run api-test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@faker-js/faker": "^9.6.0",
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.13.10",
+    "axios": "^1.9.0",
+    "fs-extra": "^11.1.1",
+    "multiple-cucumber-html-reporter": "^3.3.0",
+    "playwright": "^1.51.1",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "ts-node": "^10.9.1",
+    "winston": "^3.8.2"
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "files.autoSave": "afterDelay",
+    "cucumber.glue": [
+        "tests/**/steps/*.ts"
+    ],
+    "cucumber.features": [
+        "tests/**/features/*.feature"
+    ],
+    "cucumberautocomplete.steps": [
+        "tests/**/steps/*.ts"
+    ],
+    "cucumberautocomplete.smartSnippets": true
+}
