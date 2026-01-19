@@ -204,8 +204,8 @@ git --version     # Should show git version 2.x.x
 1. **Clone the repository:**
 
 ```bash
-git clone <repository-url>
-cd test-automation-framework
+git clone https://github.com/nchadha28107/Playwright_UI_API.git
+cd Playwright_UI_API
 ```
 
 2. **Install dependencies:**
